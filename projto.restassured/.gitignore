@@ -1,0 +1,34 @@
+# Arquivos e diretórios específicos para projetos Maven
+target/
+
+# Logs gerados por IDEs (Eclipse, IntelliJ, etc.)
+.log
+*.log
+
+# Arquivos de configuração específicos da IDE (arquivos .idea/ para IntelliJ, .project e .classpath para Eclipse)
+.idea/
+.classpath
+.project
+
+# Diretório de dependências do Maven (geralmente chamado .m2)
+.m2/
+
+# Arquivos de saída gerados por testes e relatórios
+test-output/
+target/testesapi-report.html
+
+# Dependências Maven (JARs)
+*.jar
+
+# Arquivos de configuração Maven
+mvn/
+mvnw.cmd
+mvnw
+pom.xml.tag
+
+# Relatórios de cobertura gerados pelo Cucumber
+cucumber-html-reports/
+
+# Diretórios e arquivos temporários
+.DS_Store
+Thumbs.db
