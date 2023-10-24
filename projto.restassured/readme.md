@@ -19,6 +19,25 @@ O projeto está estruturado da seguinte forma:
 - `projto.restassured.apiobjects`: Classes que encapsulam chamadas de API e configurações.
 - `projeto.restassured.teste`: Classes de teste Cucumber.
 
+## Configuração do Ambiente
+
+Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
+
+1. Clone este repositório para sua máquina local.
+Abra o terminal ou prompt de comando e navegue até o diretório onde deseja clonar o projeto. Em seguida, execute o comando:
+
+git clone <URL do repositório>
+
+3. Certifique-se de ter o JDK instalado e configurado corretamente.
+
+Abra o prompt e execute o comando: java -version
+
+5. Certifique-se de ter o Apache Maven instalado e configurado corretamente.
+
+Abra o prompt e execute o comando: mvn -version
+
+6. Não esqueça de configurar as variáveis de ambiente Java e Maven 
+
 ## Executando Testes
 
 Para executar o projeto, siga as etapas abaixo:
